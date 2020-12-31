@@ -1,0 +1,94 @@
+
+.position
+{
+    position: relative;
+    right: -125px;
+    top: -25px;
+}
+.blanc
+{
+    background-color: white;
+}
+.margin
+{
+    margin-top: 90px;
+}
+.btn-outline-success
+{
+    background-color:#2b904c
+}
+.text
+{
+    font-size: xx-large;
+}
+.black
+{
+    background-color: black;
+    height: 225px;
+}   
+.urgence
+{
+    height: 30px;
+    width: 400px;
+    background-color: #2b904c
+}
+.specialite
+{
+    height: 65px;
+    background-color: #19a347;
+    
+}
+.card-body:hover
+{
+    background-color: #247740;
+}
+.pourquoi
+{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pied
+{
+    background-color: #19a347;
+}
+.coloration a{
+    color: white;
+}
+
+
+
+
+
+[class*="reveal-"]
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .5s cubic-bezier(.71,.03,.03,.93);
+}
+.reveal-1
+{
+    transition-delay: .3s;
+}
+.reveal-2
+{
+    transition-delay: .4s;
+}
+.reveal-3
+{
+    transition-delay: .5s;
+}
+.reveal-4
+{
+    transition-delay: .6s;
+}
+.reveal-5
+{
+    transition-delay: .7s;
+}

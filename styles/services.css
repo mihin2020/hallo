@@ -1,0 +1,65 @@
+
+.position
+{
+    position: relative;
+    right: -125px;
+    top: -25px;
+}
+.blanc
+{
+    background-color: white;
+}
+.margin
+{
+    margin-top: 90px;
+}
+.btn-outline-success
+{
+    background-color:#2b904c
+}
+.bottom
+{
+    margin-top: 75px;
+}
+.text
+{
+    font-size: xx-large;
+}
+.black
+{
+    background-color: black;
+    height: 225px;
+}   
+.urgence
+{
+    height: 30px;
+    width: 400px;
+    background-color: #2b904c
+}
+.specialite
+{
+    height: 65px;
+    background-color: #19a347;
+    
+}
+.card-body:hover
+{
+    background-color: #247740;
+}
+.pourquoi
+{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pied
+{
+    background-color: #19a347;
+}
+.coloration a{
+    color: white;
+}
+.jumbotron
+{
+    height: 500px;
+}

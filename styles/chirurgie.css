@@ -1,0 +1,51 @@
+.gray{
+    height: 120px;
+    background-color: white;
+}
+.white{
+    height: 120px;
+    background-color:white;
+    display: flex;
+}
+.logo{
+    position: relative;
+    bottom: 30px;
+    
+}
+.boutton{
+    margin-left: 150px;
+}
+.yellow{
+    height: 400px;
+    background-color: white;
+}
+.chirurgie p{
+    margin-top: -250px;  
+}
+.green{
+    height: 250px;
+}
+.kaki{
+    height: 500px;
+}
+.success{
+    height: 450px;
+}
+.kl{
+    height: 250px;
+}
+.pied
+{
+    background-color: #19a347;
+}
+
+@media all and (max-width:500px), ()
+{
+   .gray{
+       position: fixed; z-index: 4;    
+   } 
+   .boutton{
+       display: none;
+   }
+
+}

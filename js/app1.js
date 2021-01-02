@@ -18,7 +18,18 @@ const options = {
           
       })
   }
-  
+   
+
+
+
+      
+      
+
+    
+
+        
+        
+   
   const observer = new IntersectionObserver(handleIntersect, options);
   document.querySelectorAll('[class*="reveal-"]').forEach(function(r){
       observer.observe(r)

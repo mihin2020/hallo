@@ -100,3 +100,10 @@
 {
     transition-delay: .7s;
 }
+
+@media screen and (max-width: 760px) {
+  .dropdown , .form-control
+  {
+      display: none;
+  }
+ }

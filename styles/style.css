@@ -42,6 +42,11 @@
 {
     background-color: #247740;
 }
+.zoom:hover{
+    cursor: pointer;
+    transform:scale(1.08);
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .pourquoi
 {
     font-size: x-large;

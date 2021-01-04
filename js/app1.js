@@ -20,6 +20,8 @@ const options = {
   }
    
 
+      AOS.init();
+
 
 
       

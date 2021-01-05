@@ -24,7 +24,7 @@ const options = {
 
 
 
-      
+  AOS.init();
       
 
     

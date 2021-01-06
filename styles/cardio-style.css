@@ -1,0 +1,176 @@
+ /*Page radiologie*/
+ .col-12
+ {
+    display: inline-block;
+    position: relative;
+ }
+.texte-cardio{
+   
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 10px;
+    bottom: 30%;
+    color:  white;
+    width: 70%;
+}
+.texte-car{
+    font-size: 50px;
+}
+.yellow:hover{
+    background-color:#2ec8a6 ;
+    border-radius: 10px 0;
+}
+.ombre-multiple{
+    box-shadow: inset 0 0 4em white, 0 0 5em gainsboro
+}
+.whidh:hover{
+    background-color:white ;
+}
+.block-2{
+    display: inline-block;
+    position: relative;
+}
+
+@media
+(min-width : 992px){
+.block-2 {
+border-radius: 9px;
+}
+.img-responsives{
+width: 100%;
+}
+.col-lg-4 {
+flex: 0 0 33.33333%;
+max-width: 33.33333%;
+}
+}
+
+
+
+
+
+.position
+{
+    position: relative;
+    right: -125px;
+    top: -25px;
+}
+.blanc
+{
+    background-color: white;
+}
+.margin
+{
+    margin-top: 90px;
+}
+.btn-outline-success
+{
+    background-color:#2b904c
+}
+.text
+{
+    font-size: xx-large;
+}
+.black
+{
+    background-color: black;
+    height: 225px;
+}   
+.urgence
+{
+    height: 30px;
+    width: 400px;
+    background-color: #2b904c
+}
+.specialite
+{
+    height: 65px;
+    background-color: #19a347;
+    
+}
+.card-body:hover
+{
+    background-color: #247740;
+}
+.zoom:hover{
+    cursor: pointer;
+    transform:scale(1.08);
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.pourquoi
+{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pied
+{
+    background-color: #19a347;
+}
+.coloration a{
+    color: white;
+}
+
+
+
+
+
+[class*="reveal-"]
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .5s cubic-bezier(.71,.03,.03,.93);
+}
+.reveal-1
+{
+    transition-delay: .3s;
+}
+.reveal-2
+{
+    transition-delay: .4s;
+}
+.reveal-3
+{
+    transition-delay: .5s;
+}
+.reveal-4
+{
+    transition-delay: .6s;
+}
+.reveal-5
+{
+    transition-delay: .7s;
+}
+.reveal-6
+{
+    transition-delay: .10s;
+}
+
+@media screen and (max-width: 750px) {
+   .dropdown
+   {
+       position: relative;
+       right: 75px;
+   }
+   .contact
+   {
+       position: relative;
+       left: 150px;
+       bottom: 38px;
+   }
+   .recherche
+   {
+       display: none;
+   }
+}

@@ -12,24 +12,56 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body class="bg-light">
-    <header>
-        <div class="container-fluid gray border-bottom border-dark fixed-top">
-            <div class="container white border-bottom border-dark">
-                <div class="logo reveal-5">
-                    <img src="/home/mihin/Bureau/Hallo docteur/images/docteur.png"height="220px" width="200px"  alt="">
-                </div>
-                <div class="boutton p-4">
-                    <button type="button" class="btn btn-white text-success border border-dark">acceuil</button>
-                    <button type="button" class="btn btn-white text-success border border-dark">service</button>
-                    <button type="button" class="btn btn-white text-success border border-dark">spécialité</button>
-                    <button type="button" class="btn btn-white text-success border border-dark">contact</button>
-                </div>
-                <div class="boutton2 p-4">
-                    <input type="search" id="search" name="search" style="width: 200px;" placeholder="Rechercher">
-                </div>
-            </div>
-
+  <header>
+    <nav class="fixed-top blanc ">
+      <div class="container-fluid mt-4 border-bottom border-success">
+        <div class="row" style="height: 75px;">
+          <div class="col-md-3   position reveal-5">
+            <img src="/home/mihin/Bureau/Hallo docteur/images/logo2.jpg" width="170px" height="100px"alt="">
+          </div>
+          <div class="col-md-5 ">
+            <ul class="nav justify-content-center nav-fills">      
+              <div class="dropdown ml-4">
+                <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="dropdown">
+                   Acceuil</button>
+                </div> 
+                <div class="dropdown ml-4">
+                  <button type="button" class="btn btn-outline-success  font-weight-bold " data-toggle="dropdown">
+                    Service 
+                  </button> </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/Chirurgie.html">Chirurgie</a>
+                    <a class="dropdown-item" href="#">Denterie</a>
+                    <a class="dropdown-item" href="#">Laboratoire</a>
+                    <a class="dropdown-item" href="#">Maternité</a>
+                  </div>
+                </div> 
+  
+                <div class="dropdown ml-4 ">
+                   <button type="button" class="btn btn-outline-success font-weight-bold" href="/home/mihin/Bureau/Hallo docteur/pages/specialite.html"  data-toggle="dropdown">Spécialité </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../pages/cardiologie (2).html">Cardiologie</a>
+                    <a class="dropdown-item" href="../pages/radiologie.html">Radiologie</a>
+                    <a class="dropdown-item" href="../pages/pneumologie.html">Pneumologie</a>
+                  </div>
+                </div> 
+  
+                <div class="dropdown contact ml-4">
+                  <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="dropdown">
+                    Contact
+                  </button>
+                </div> 
+            </ul>
+          </div>
+          <div class="col-md-4 recherche">
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2 Recherche" type="search" placeholder="Recherche" aria-label="Recherche" id="Recherche" value="" onchange="ouvrirPage()">
+              <button class="btn btn-success my-2 my-sm-0 font-weight-bold button" type="submit" onclick="ouvrirPage()">Recherche</button>
+            </form>
+          </div>
         </div>
+      </div>
+    </nav>
     </header>
     <div class="container-fluid p-0 yellow ">
         <div class="chirurgie">

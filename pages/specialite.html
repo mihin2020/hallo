@@ -13,55 +13,55 @@
 </head>
 <body class="bg-light">
   <header>
-    <nav>
-        <div class="container-fluid mt-4 border-bottom border-success">
-          <div class="row" style="height: 75px;">
-            <div class="col-md-3 col-xs-12 position reveal-3">
-              <img src="/home/mihin/Bureau/Hallo docteur/images/logo2.jpg" width="170px" height="100px"alt="">
-            </div>
-            <div class="col-md-5">
-              <ul class="nav justify-content-center nav-fills">      
+    <nav class="blanc ">
+      <div class="container-fluid mt-4 border-bottom border-success">
+        <div class="row" style="height: 75px;">
+          <div class="col-md-3   position reveal-5">
+            <img src="/home/mihin/Bureau/Hallo docteur/images/logo2.jpg" width="170px" height="100px"alt="">
+          </div>
+          <div class="col-md-5 ">
+            <ul class="nav justify-content-center nav-fills">      
+              <div class="dropdown ml-4">
+                <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="dropdown">
+                   Acceuil</button>
+                </div> 
                 <div class="dropdown ml-4">
+                  <button type="button" class="btn btn-outline-success  font-weight-bold " data-toggle="dropdown">
+                    Service 
+                  </button> </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/Chirurgie.html">Chirurgie</a>
+                    <a class="dropdown-item" href="#">Denterie</a>
+                    <a class="dropdown-item" href="#">Laboratoire</a>
+                    <a class="dropdown-item" href="#">Maternité</a>
+                  </div>
+                </div> 
+  
+                <div class="dropdown ml-4 ">
+                   <button type="button" class="btn btn-outline-success font-weight-bold" href="/home/mihin/Bureau/Hallo docteur/pages/specialite.html"  data-toggle="dropdown">Spécialité </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../pages/cardiologie (2).html">Cardiologie</a>
+                    <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/radiologie">Radiologie</a>
+                    <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/pneumologie.html">Pneumologie</a>
+                  </div>
+                </div> 
+
+                <div class="dropdown contact ml-4">
                   <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="dropdown">
-                     Acceuil</button>
-                  </div> 
-                  <div class="dropdown ml-4">
-                    <button type="button" class="btn btn-outline-success  font-weight-bold " data-toggle="dropdown">
-                     Service
-                    </button> </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/Chirurgie.html">Chirurgie</a>
-                      <a class="dropdown-item" href="#">Denterie</a>
-                      <a class="dropdown-item" href="#">Laboratoire</a>
-                      <a class="dropdown-item" href="#">Maternité</a>
-                    </div>
-                  </div> 
-    
-                  <div class="dropdown ml-4 ">
-                     <button type="button" class="btn btn-outline-success font-weight-bold" href=""  data-toggle="dropdown">Spécialité </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Cardiologie</a>
-                      <a class="dropdown-item" href="#">Radiologie</a>
-                      <a class="dropdown-item" href="/home/mihin/Bureau/Hallo docteur/pages/pneumologie.html">Pneumologie</a>
-                    </div>
-                  </div> 
-    
-                  <div class="dropdown ml-4">
-                    <button type="button" class="btn btn-outline-success font-weight-bold" data-toggle="dropdown">
-                      Contact
-                    </button>
-                  </div> 
-              </ul>
-            </div>
-            <div class="col-md-4 ">
-              <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2  Recherche" type="search" placeholder="Recherche" aria-label="Recherche">
-                <button class="btn btn-success my-2 my-sm-0 font-weight-bold button" type="submit">Recherche</button>
-              </form>
-            </div>
+                    Contact
+                  </button>
+                </div> 
+            </ul>
+          </div>
+          <div class="col-md-4 recherche">
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2 Recherche" type="search" placeholder="Recherche" aria-label="Recherche" id="Recherche" value="" onchange="ouvrirPage()">
+              <button class="btn btn-success my-2 my-sm-0 font-weight-bold button" type="submit" onclick="ouvrirPage()">Recherche</button>
+            </form>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
       <div class="container-fluid p-0"> 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -117,7 +117,7 @@
                 <div>
                   <p class="text-justify reveal-3">La radiologie médicale désigne l’ensemble des techniques diagnostiques et thérapeutiques, par rayons X et autres rayonnements. Elle couvre la radiologie conventionnelle – ou radiographie standard –, par rayons X traversant le corps pour imprimer un film photosensible, l’imagerie médicale par ultrasons (échographie), par résonnance magnétique (scanner et IRM)… et la radiologie interventionnelle, ensemble des actes diagnostiques et thérapeutiques invasifs réalisés par le radiologue.La radiologie et imagerie médicale est un auxiliaire précieux des autres spécialités médicales . Cet outil majeur d’investigation intervient dans le dépistage (grâce à une mammographie par ex.), le traitement et le suivi de très nombreuses pathologies voire en urgence. </p>
                   <div class="text-center ">
-                 <a href="../document/info_radio.pdf"download>  <button type="button" class="btn-lg btn-success ">Voir plus</button></a> 
+                 <a href="../pages/radiologie.html">  <button type="button" class="btn-lg btn-success ">Voir plus</button></a> 
                   </div>
                 </div>
           </div>
@@ -140,7 +140,7 @@
           <div>
             <p class="text-justify reveal-4">La cardiologie est la spécialité de la médecine qui étudie le cœur et les vaisseaux (artères et veines), qui précise leur fonctionnement (normal ou pathologique) et qui propose des traitements (médicaux, endovasculaires ou chirurgicaux). Les cardiologues interviennent dans le domaine de l’urgence (infarctus du myocarde, poussées d’hypertension, anévrysmes) mais aussi dans la pratique quotidienne puisqu’ils prennent en charge l’hypertension, l’angine de poitrine, l’insuffisance cardiaque… Ils prennent également en charge les maladies liées à l’athérosclérose, maladie des vaisseaux dont le calibre diminue en raison de l’accumulation de lipides au niveau des parois.
               <div class="text-center ">
-               <a href="../document/info_cardio.pdf"download><button type="button" class="btn-lg btn-success">Voir plus</button>
+               <a href="../pages/cardiologie (2).html"><button type="button" class="btn-lg btn-success">Voir plus</button>
                </a> 
               </div>
             </p>

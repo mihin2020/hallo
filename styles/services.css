@@ -9,10 +9,6 @@
 {
     background-color: white;
 }
-.down
-{
-    margin-top: 100px
-}
 .margin
 {
     margin-top: 90px;
@@ -20,10 +16,6 @@
 .btn-outline-success
 {
     background-color:#2b904c
-}
-.bottom
-{
-    margin-top: 75px;
 }
 .text
 {
@@ -50,6 +42,11 @@
 {
     background-color: #247740;
 }
+.zoom:hover{
+    cursor: pointer;
+    transform:scale(1.08);
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .pourquoi
 {
     font-size: x-large;
@@ -63,10 +60,7 @@
 .coloration a{
     color: white;
 }
-.jumbotron
-{
-    height: 500px;
-}
+
 
 
 
@@ -106,4 +100,22 @@
 .reveal-6
 {
     transition-delay: .10s;
+}
+
+@media screen and (max-width: 750px) {
+   .dropdown
+   {
+       position: relative;
+       right: 75px;
+   }
+   .contact
+   {
+       position: relative;
+       left: 150px;
+       bottom: 38px;
+   }
+   .recherche
+   {
+       display: none;
+   }
 }

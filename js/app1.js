@@ -38,3 +38,13 @@ const options = {
   })
   
 
+  function ouvrirPage () {
+    var a = document.getElementById("Recherche").value;
+    if(a=="cancer"){
+        window.open("../index.html");
+    }
+    if(a=="ADRESSE"|| a=="adr"){
+        window.open("../Hallo docteur/pages/contact.html");
+    }
+ }
+  

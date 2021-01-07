@@ -24,7 +24,7 @@ const options = {
 
 
 
-  AOS.init();
+ 
       
 
     
@@ -45,6 +45,15 @@ const options = {
     }
     if(a=="ADRESSE"|| a=="adr"){
         window.open("../Hallo docteur/pages/contact.html");
+    }
+    if(a=="denterie"|| a=="adr"){
+        window.open("../Hallo docteur/pages/dent.html");
+    }
+    if(a=="laboratoire"|| a=="labo"){
+        window.open("../Hallo docteur/pages/labo.html");
+    }
+    if(a=="radiologie"|| a=="radio"){
+        window.open("../Hallo docteur/pages/labo.html");
     }
  }
   

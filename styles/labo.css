@@ -1,3 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.img{
+    background: url(../images/labo.jpg)no-repeat 50% 50%;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.header{
+    background: url(../images/manuel\ de\ prelevement.jpg)no-repeat 60% 60%;
+    background-size: cover;
+    height: 350px;
+    margin-top:px;
+    
+}
+header p{
+    display: inline;
+    margin: 60px;
+    color: white;
+    padding-bottom: 25px;
+
+}
+.p1{
+    background: url(../images/espace\ patient.jpeg)no-repeat 50% 50%;
+    height: 350px;
+    background-size: cover;
+    opacity: 0;
+    width: 300px;
+}
+
+.p2{
+    background: url(../images/nos\ labo.jpeg)no-repeat 50% 50%;
+    height: 350px;
+    background-size: cover;
+    opacity: 0;
+    width: 300px;
+}
+.p3{
+    background: url(../images/vos\ resultats\ en\ ligne2.jpeg)no-repeat 50% 50%;
+    height: 350px;
+    background-size: cover;
+    opacity: 0;
+    width: 300px;
+}
+.p4{
+    background: url(../images/outil\ de\ prelevement3.jpeg)no-repeat 50% 50%;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    left: 45px;
+    opacity: 0;
+    width: 350px;
+}
+.p4:hover{
+    opacity: 1;
+}
+.p1:hover{
+    opacity: 1;
+}
+.p2:hover{
+    opacity: 1;
+}
+.p3:hover{
+    opacity: 1;
+}
+.up{
+    height: 50px;
+    background-color: blue;
+}
+.up2{
+    height: 50px;
+    background-color: violet;
+}
+.up3{
+    height: 50px;
+    background-color: orange;
+}
+.up4{
+    height: 50px;
+    background-color: green;
+}
+
+
+
+
 
 .position
 {

@@ -1,3 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header p{
+    padding: 200px;
+    font-size: 3.5em;
+    margin-right: 25px;
+}
+.header{
+    background: url(../images/medecin-tenant-outils-du-dentiste_144627-43914.jpg)no-repeat 50% 50%;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+}
+.pi{
+    background-color: rgb(23, 126, 117);
+    height: 240px;
+}
+.pi img{
+    margin-left: 85px;
+}
+.pj{
+    background-color: rgb(66, 199, 188);
+    height: 240px;
+}
+.pj img{
+    margin-left: 85px;
+}
+.pz{
+    background-color: rgb(158, 233, 227);
+    height: 240px;
+}
+.pz img{
+    margin-left: 85px;
+}
+.gray{
+    height: 450px;
+    background-color: rgb(165, 162, 162);
+}
+.yellow{
+    height: 450px;
+    background-color: rgb(221, 216, 216);
+}
+
 
 .position
 {
@@ -102,7 +147,7 @@
     transition-delay: .10s;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 750px) {
    .dropdown
    {
        position: relative;
@@ -117,7 +162,6 @@
    .recherche
    {
        display: none;
-       
    }
    .nav
    {
